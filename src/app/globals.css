@@ -23,6 +23,7 @@ body {
 }
 
 .container {
+  margin: auto;
   width: 1536px;
   padding-left: 50px;
   padding-right: 50px;

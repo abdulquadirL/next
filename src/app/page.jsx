@@ -1,12 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+//import Image from "next/image";
+import styles from "./home.module.css"
 
 export default function Home() {
   return (
    <div className={styles.container}>
     <div className={styles.textContainer}>
-      <h1>Creative Thoughts Agency</h1>
-      <p>
+      <h1 className={styles.title}>Creative Thoughts Agency</h1>
+      <p className={styles.desc}>
         Lorem ipsum catnipp
       </p>
       <div className={styles.buttons}>
